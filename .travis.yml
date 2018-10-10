@@ -7,3 +7,11 @@ env:
 
 script:
   - bash <(curl -s https://codecov.io/bash)
+
+before_install:
+  - pip install --user codecov 
+
+after_success:
+  - codecov 
+
+  
