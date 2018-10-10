@@ -11,6 +11,8 @@
   <url>http://maven.apache.org</url>
 
     <properties>
+    	<maven.compiler.source>6</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
         <!-- Used to locate the profile specific configuration file. -->
         <build.profile.id>dev</build.profile.id>
         <jacoco.it.execution.data.file>${project.build.directory}\coverage-reports\jacoco-it.exec</jacoco.it.execution.data.file>
