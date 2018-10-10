@@ -107,7 +107,7 @@
   <testFailureIgnore>true</testFailureIgnore>
     <reuseForks>true</reuseForks>
     <threadCount>1</threadCount>
-    <argLine>${surefireArgLine} -Xmx1024m -XX:MaxPermSize=256m</argLine>
+    <argLine>-Xmx1024m -XX:MaxPermSize=256m</argLine>
   </configuration>
 </plugin>
   </plugins>
