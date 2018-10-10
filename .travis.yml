@@ -6,6 +6,7 @@ env:
     - CODECOV_TOKEN=90f9ff3a-4091-465d-b0be-42c0fa4a6554
 
 script:
+  - mvn clean test
   - bash <(curl -s https://codecov.io/bash)
 
 before_install:
